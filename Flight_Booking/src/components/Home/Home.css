@@ -1,3 +1,76 @@
-.Home{
-    background-image: linear-gradient(red, blue);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+.Home{
+    background-image: linear-gradient(rgb(82, 177, 214),white);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* content */
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+/* head */
+
+a{
+    text-decoration: none;
+}
+.logo{
+    font-size: 30px;
+}
+.nav{
+   justify-content: space-between;
+    
+}
+.sign{
+    background-color: rgb(206, 203, 203);
+    border-radius: 30px;
+    width: 125px;
+    height: 50px;
+    margin-right: 10px;
+}
+.log{
+    background-color: rgb(206, 203, 203);
+    border-radius: 30px;
+    width: 125px;
+    height: 50px;
+}
+
+@media screen and (max-width: 480px) {
+    .nav{
+        display: block;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 20px;
+        font-size: 30px;
+    }
+    .in{
+        position: absolute;
+        top: 10%;
+        right: 0;
+        width: 150px;
+        background: aqua;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 20px;
+        transition: all .55s ease;
+    }
+    .sign{
+        margin-bottom: 10px;
+    }
+}
+
+

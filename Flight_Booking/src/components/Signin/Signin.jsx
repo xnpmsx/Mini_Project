@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from '../Navbar/Navbar'
+import Home from '../Home/Home'
 
 const Signin = () => {
   return (
     <>
-    <Navbar/>
+    <Home/>
     <div>
         <h1>Signin</h1>
     </div>
