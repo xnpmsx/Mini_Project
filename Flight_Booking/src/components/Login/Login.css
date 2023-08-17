@@ -1,0 +1,11 @@
+.homelog{
+    background-image: linear-gradient(rgb(82, 177, 214),white);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.boxlog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
