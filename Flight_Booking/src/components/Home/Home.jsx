@@ -23,6 +23,16 @@ const Home = () => {
         <h1>พร้อมออกเดินทางงงงงงงงง</h1>
         <h2>จองเที่ยวบินทั่วโลกสำหรับทริปของคุณด้วยข้อเสนอที่ดีที่สุด</h2>
       </div>
+      <form action="" method="post">
+      <div className="datainput">
+          <input type="text" className='inputwhere' placeholder='เดินทางไปที่ไหน'/>
+          <input type="text" className='inputwhere' placeholder='เวลา'/>
+          <input type="text" className='inputwhere' placeholder='ปลายทาง'/>
+          <input type="text" className='inputwhere' placeholder='ชื่อ'/>
+        </div>
+      </form>
+       
+      
 
     </div>
 
