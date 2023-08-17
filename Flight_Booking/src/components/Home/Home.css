@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .Home{
     background-image: linear-gradient(rgb(82, 177, 214),white);
@@ -31,24 +32,48 @@ a{
     text-decoration: none;
 }
 .logo{
-    font-size: 30px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo a{
+    color: #313866;
 }
 .nav{
-   justify-content: space-between;
-    
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 150px 30px 150px;
+}
+.in{
+    display: flex;    
 }
 .sign{
-    background-color: rgb(206, 203, 203);
+    background-color: #313866;
     border-radius: 30px;
     width: 125px;
     height: 50px;
     margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;  
+}
+.sign a{
+    color: white;
 }
 .log{
-    background-color: rgb(206, 203, 203);
+    background-color: #313866;
     border-radius: 30px;
     width: 125px;
     height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+.log a{
+    color: white;
 }
 
 @media screen and (max-width: 480px) {
