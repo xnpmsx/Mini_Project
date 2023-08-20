@@ -8,13 +8,13 @@ const Signin = () => {
         <form action="">
             <h1>Register</h1>
             <div class="input-box">
+              <input type="text" placeholder='Username' required />
             </div>
             <div class="input-box">
-
+                <input type="email" name="" id="" placeholder='E-mail' />
             </div>
             <div class="input-box">
-
-                
+                <input type="password" placeholder='Password' required />
             </div>
             <button type="submit" class="btn">Register</button>
             <div class="register-link">
