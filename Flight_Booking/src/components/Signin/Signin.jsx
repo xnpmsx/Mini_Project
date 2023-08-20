@@ -16,6 +16,14 @@ const Signin = () => {
                 <div className="i"><FaUser /></div>
               </div>
               <div class="input-box">
+                <input type="text" placeholder='Name' required />
+                <div className="i"><FaUser /></div>
+              </div>
+              <div class="input-box">
+                <input type="text" placeholder='Surname' required />
+                <div className="i"><FaUser /></div>
+              </div>
+              <div class="input-box">
                   <input type="email" name="" id="" placeholder='E-mail' />
                   <div className="i"><MdEmail /></div>
               </div>
