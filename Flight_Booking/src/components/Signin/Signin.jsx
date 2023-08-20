@@ -3,6 +3,7 @@ import './Signin.css'
 import { FaUser } from 'react-icons/fa'
 import { HiLockClosed } from 'react-icons/hi'
 import { MdEmail } from 'react-icons/md'
+import { Link } from 'react-router-dom'
 const Signin = () => {
   return (
     <>
@@ -25,7 +26,7 @@ const Signin = () => {
               <button type="submit" class="btn">Register</button>
               <div class="register-link">
                   <p>Already registered?
-                      <a href="loginpage.html">Login</a>
+                      <Link to="/Login"> Login</Link>
                   </p>
 
               </div>
