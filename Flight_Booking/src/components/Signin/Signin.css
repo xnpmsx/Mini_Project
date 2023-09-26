@@ -8,7 +8,7 @@
 .img{
     height: 75vh;
     width: 600px;
-    background-image: url("https://images.unsplash.com/photo-1506012787146-f92b2d7d6d96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWlycGxhbmUlMjB2aWV3fGVufDB8fDB8fHww&w=1000&q=80");
+    background-image: url("https://blog.blacklane.com/wp-content/uploads/2019/05/Untitled-design-2019-05-31T200158.980.png");
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 2);
 }
 .regis{
@@ -24,12 +24,85 @@
     flex-direction: column;
 }
 
+.regis h3{
+    margin-right: 225px;
+    margin-bottom: 20px;
+    font-size: 21px;
+    text-decoration: underline 2px solid blue;
+}
+
 .regis-input{
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
-.regis-input input{
-    margin: 10px;
+.regis-input-username{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.regis-input-username input{
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 2);
+}
+.regis-input-password{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.regis-input-password input{
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 2);
+}
+.regis-input-name{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.regis-input-name input{
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 2);
+}
+.regis-input-email{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.regis-input-email input{
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 2);
+}
+
+.regis-input-submit input{
+    font-size: 18px;
+    color: white;
+    background-color: blue;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 2);
 }

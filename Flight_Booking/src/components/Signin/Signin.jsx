@@ -15,14 +15,25 @@ const Signin = () => {
             <h3>Register</h3>
 
            <div className="regis-input">
-              Username
-              <input type="text" required />
-              Name
-              <input type="text" required />
-              Password
-              <input type="password" required />
-              E-mail
-              <input type="email" required />
+              <div className="regis-input-username">
+                Username
+                <input type="text" required />
+              </div>
+              <div className="regis-input-name">
+                Name
+                <input type="text" required />
+              </div>
+              <div className="regis-input-password">
+                Password
+                <input type="password" required />
+              </div>
+              <div className="regis-input-email">
+                E-mail
+                <input type="email" required />
+              </div>
+              <div className="regis-input-submit">
+                <input type="submit" value={"Register"} required />
+              </div>
            </div>
         </div>
       </div>
