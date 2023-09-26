@@ -9,10 +9,21 @@ const Signin = () => {
     <>
       <div className="bg">
         <div className="img">
-            img
+            
         </div>
         <div className="regis">
-            register
+            <h3>Register</h3>
+
+           <div className="regis-input">
+              Username
+              <input type="text" required />
+              Name
+              <input type="text" required />
+              Password
+              <input type="password" required />
+              E-mail
+              <input type="email" required />
+           </div>
         </div>
       </div>
     </>
