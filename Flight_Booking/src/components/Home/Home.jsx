@@ -10,9 +10,15 @@ const Home = () => {
           <Link to="/">Canfly</Link>
         </div> 
         <div className="navcenter">
-          <Link to="/">Home</Link>
-          <Link to="/">Your order</Link>
-          <Link to="/">Favourites</Link>
+          <div className="navhome">
+            <Link to="/">Home</Link>
+          </div>
+          <div className="navorder">
+            <Link to="/">Your order</Link>
+          </div>
+          <div className="navfav">
+            <Link to="/">Favourites</Link>
+          </div>
         </div>
         <div className="in">
           <div className='sign'>
@@ -25,7 +31,7 @@ const Home = () => {
       </div>
 
       <div className="content">
-        <h1>พร้อมออกเดินทางงงงงงงงง</h1>
+        <h1>เริ่มเดินทางได้แล้ววันนี้</h1>
         <h2>จองเที่ยวบินทั่วโลกสำหรับทริปของคุณด้วยข้อเสนอที่ดีที่สุด</h2>
       </div>
       <form action="" method="post">
