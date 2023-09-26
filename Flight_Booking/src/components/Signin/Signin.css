@@ -12,7 +12,9 @@
 }
 .regis{
 
-    background-color: aqua;
+    background-color: white;
     height: 75vh;
     width: 600px;
+    border-radius: 0px 40px 40px 0px;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 2);
 }
