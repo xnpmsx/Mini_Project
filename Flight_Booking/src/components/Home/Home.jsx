@@ -9,6 +9,11 @@ const Home = () => {
         <div className="logo">
           <Link to="/">Canfly</Link>
         </div> 
+        <div className="navcenter">
+          <Link to="/">Home</Link>
+          <Link to="/">Your order</Link>
+          <Link to="/">Favourites</Link>
+        </div>
         <div className="in">
           <div className='sign'>
             <Link to="/Signin">SIGN IN</Link>

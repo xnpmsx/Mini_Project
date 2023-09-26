@@ -45,6 +45,13 @@ a{
     justify-content: space-between;
     margin: 100px 150px 30px 150px;
 }
+.navcenter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    font-size: 18px;
+}
 .in{
     display: flex;    
 }
