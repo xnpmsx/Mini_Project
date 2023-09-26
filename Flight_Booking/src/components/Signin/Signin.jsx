@@ -33,6 +33,7 @@ const Signin = () => {
               </div>
               <div className="regis-input-submit">
                 <input type="submit" value={"Register"} required />
+                Already have account ? <Link to='/login'>Login</Link>
               </div>
            </div>
         </div>
