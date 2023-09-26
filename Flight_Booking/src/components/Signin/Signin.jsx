@@ -18,6 +18,7 @@ const Signin = () => {
               <div className="regis-input-username">
                 Username
                 <input type="text" required />
+                <div className="i"><FaUser /></div>
               </div>
               <div className="regis-input-name">
                 Name
@@ -33,7 +34,9 @@ const Signin = () => {
               </div>
               <div className="regis-input-submit">
                 <input type="submit" value={"Register"} required />
-                Already have account ? <Link to='/login'>Login</Link>
+                <div className="regis-input-submit-tologin">
+                  Already have account ? <Link to='/login'>Login</Link>
+                </div>
               </div>
            </div>
         </div>

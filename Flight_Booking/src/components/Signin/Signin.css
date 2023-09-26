@@ -26,7 +26,7 @@
 
 .regis h3{
     margin-right: 225px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     font-size: 21px;
     text-decoration: underline 2px solid blue;
 }
@@ -40,7 +40,7 @@
 .regis-input-username{
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .regis-input-username input{
     margin-top: 5px;
@@ -54,7 +54,7 @@
 .regis-input-password{
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .regis-input-password input{
     margin-top: 5px;
@@ -68,7 +68,7 @@
 .regis-input-name{
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .regis-input-name input{
     margin-top: 5px;
@@ -82,7 +82,7 @@
 .regis-input-email{
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .regis-input-email input{
     margin-top: 5px;
