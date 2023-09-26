@@ -18,7 +18,6 @@ const Signin = () => {
               <div className="regis-input-username">
                 Username
                 <input type="text" required />
-                <div className="i"><FaUser /></div>
               </div>
               <div className="regis-input-name">
                 Name
