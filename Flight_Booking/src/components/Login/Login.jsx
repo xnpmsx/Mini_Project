@@ -1,38 +1,39 @@
 import React from 'react'
 import './Login.css'
-import { Link } from 'react-router-dom'
 import { FaUser } from 'react-icons/fa'
 import { HiLockClosed } from 'react-icons/hi'
-const Login = () => {
+import { MdEmail } from 'react-icons/md'
+import { Link } from 'react-router-dom'
+const Signin = () => {
   return (
     <>
-    <div className="container">
-    <div class="wrapper">
-        <form action="">
-            <h1>Login</h1>
-            <div class="input-box">
-              <input type="text" placeholder='Username' required  />
-              <div className="i"><FaUser /></div>
-            </div>
-            <div class="input-box">
-              <input type="password" placeholder='Password' required />
-              <div className="i"><HiLockClosed /></div>
-            </div>
-            <button type="submit" class="btn">Login</button>
-            <div class="register-link">
-                <p>Don't have an account ?
-                    <Link to="/Signin"> Register</Link>
-                </p>
+      <div className="bg">
+        <div className="img">
+            
+        </div>
+        <div className="regis">
+            <h3>Login</h3>
 
-            </div>
-        </form>
-    </div>
-    </div>
-     
-    
+           <div className="regis-input">
+              <div className="regis-input-username">
+                Username
+                <input type="text" required />
+              </div>
+              <div className="regis-input-password">
+                Password
+                <input type="password" required />
+              </div>
+              <div className="regis-input-submit">
+                <input type="submit" value={"Login"} required />
+                <div className="regis-input-submit-toregister">
+                  Don't have an account ? <Link to='/signin'>Register</Link>
+                </div>
+              </div>
+           </div>
+        </div>
+      </div>
     </>
-    
   )
 }
 
-export default Login
+export default Signin
