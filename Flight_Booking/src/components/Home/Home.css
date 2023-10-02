@@ -129,8 +129,12 @@ a{
     align-items: center;
 }
 
-.submit input{
-    /*margin-top: -35px;*/
+.submit a{
+    margin-top: -25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
     border: none;
     outline: none;
     border-radius: 30px;
