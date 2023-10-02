@@ -9,6 +9,7 @@ import {
 import Home from './components/Home/Home.jsx';
 import Login from './components/Login/Login.jsx';
 import Signin from './components/Signin/Signin.jsx';
+import Flight from './components/Flight/Flight.jsx';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: 'Login',
     element: <Login/>
+  },
+  {
+    path: 'Flight',
+    element: <Flight/>
   },
 ])
 

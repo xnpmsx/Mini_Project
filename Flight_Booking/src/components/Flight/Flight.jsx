@@ -1,5 +1,6 @@
 import React from 'react'
 import './Flight.css'
+import { FaCouch } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 const Flight = () => {
   return (
@@ -29,8 +30,73 @@ const Flight = () => {
           </div>
         </div>
       </div>
-       
-      
+
+
+        {/* red */}
+
+        <div className="seat_top_1">
+        <FaCouch color='red'/>
+        <FaCouch color='red'/>
+        <FaCouch color='red'/>
+        <FaCouch color='red'/>
+        <FaCouch color='red'/>
+        </div>
+        <div className="seat_top_2">
+        <FaCouch color='red'/>
+        <FaCouch color='red'/>
+        <FaCouch color='red'/>
+        <FaCouch color='red'/>
+        <FaCouch color='red'/>
+        </div>
+        <div className="seat_bottom_1">
+        <FaCouch color='red'/>
+        <FaCouch color='red'/>
+        <FaCouch color='red'/>
+        <FaCouch color='red'/>
+        <FaCouch color='red'/>
+        </div>
+        <div className="seat_bottom_2">
+        <FaCouch color='red'/>
+        <FaCouch color='red'/>
+        <FaCouch color='red'/>
+        <FaCouch color='red'/>
+        <FaCouch color='red'/>
+        
+        </div>
+
+        {/* blue */}
+
+        <div className="seat_top_1">
+
+        <FaCouch color='blue'/>
+        <FaCouch color='blue'/>
+        <FaCouch color='blue'/>
+        <FaCouch color='blue'/>
+        <FaCouch color='blue'/>
+        </div>
+        <div className="seat_top_2">
+
+        <FaCouch color='blue'/>
+        <FaCouch color='blue'/>
+        <FaCouch color='blue'/>
+        <FaCouch color='blue'/>
+        <FaCouch color='blue'/>
+        </div>
+        <div className="seat_bottom_1">
+
+        <FaCouch color='blue'/>
+        <FaCouch color='blue'/>
+        <FaCouch color='blue'/>
+        <FaCouch color='blue'/>
+        <FaCouch color='blue'/>
+        </div>
+        <div className="seat_bottom_2">
+        <FaCouch color='blue'/>
+        <FaCouch color='blue'/>
+        <FaCouch color='blue'/>
+        <FaCouch color='blue'/>
+        <FaCouch color='blue'/>
+        </div>
 
     </div>
 

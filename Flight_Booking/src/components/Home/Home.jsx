@@ -42,7 +42,7 @@ const Home = () => {
           <input type="text" className='inputwhere' placeholder='ชื่อ'/>
         </div>
         <div className="submit">
-          <Link to='/#'>Confrim</Link>
+          <Link to='/Flight'>Confrim</Link>
         </div>
       </form>
        
