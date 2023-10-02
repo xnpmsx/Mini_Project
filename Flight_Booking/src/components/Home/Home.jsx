@@ -41,6 +41,9 @@ const Home = () => {
           <input type="text" className='inputwhere' placeholder='ปลายทาง'/>
           <input type="text" className='inputwhere' placeholder='ชื่อ'/>
         </div>
+        <div className="submit">
+          <input type="submit" value="Confrim"/>
+        </div>
       </form>
        
       
