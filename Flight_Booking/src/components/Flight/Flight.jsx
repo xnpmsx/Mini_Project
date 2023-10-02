@@ -31,75 +31,191 @@ const Flight = () => {
         </div>
       </div>
 
+        <div className="seat_main_1">
 
-        {/* red */}
 
-        <div className="seat_top_1">
-        <FaCouch color='red'/>
-        <FaCouch color='red'/>
-        <FaCouch color='red'/>
-        <FaCouch color='red'/>
-        <FaCouch color='red'/>
-        </div>
-        <div className="seat_top_2">
-        <FaCouch color='red'/>
-        <FaCouch color='red'/>
-        <FaCouch color='red'/>
-        <FaCouch color='red'/>
-        <FaCouch color='red'/>
-        </div>
-        <div className="seat_bottom_1">
-        <FaCouch color='red'/>
-        <FaCouch color='red'/>
-        <FaCouch color='red'/>
-        <FaCouch color='red'/>
-        <FaCouch color='red'/>
-        </div>
-        <div className="seat_bottom_2">
-        <FaCouch color='red'/>
-        <FaCouch color='red'/>
-        <FaCouch color='red'/>
-        <FaCouch color='red'/>
-        <FaCouch color='red'/>
-        
-        </div>
+            {/* red */}
 
-        {/* blue */}
+            <div className="seat_1">
+                <div className="seat_top_1">
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                </div>
+                
 
-        <div className="seat_top_1">
+                {/* blue */}
 
-        <FaCouch color='blue'/>
-        <FaCouch color='blue'/>
-        <FaCouch color='blue'/>
-        <FaCouch color='blue'/>
-        <FaCouch color='blue'/>
+                <div className="seat_bottom_1">
+
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                </div>
+            </div>
+            <div className="seat_2">
+                <div className="seat_top_2">
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                </div>
+                
+
+                {/* blue */}
+
+                <div className="seat_bottom_2">
+
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                </div>
+            </div>
+            <div className="seat_3">
+                <div className="seat_top_1">
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                </div>
+                
+
+                {/* blue */}
+
+                <div className="seat_bottom_1">
+
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                </div>
+            </div>
+            <div className="seat_4">
+                <div className="seat_top_2">
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                </div>
+                
+
+                {/* blue */}
+
+                <div className="seat_bottom_2">
+
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                </div>
+            </div>
+
+
         </div>
-        <div className="seat_top_2">
+        <div className="seat_main_2">
 
-        <FaCouch color='blue'/>
-        <FaCouch color='blue'/>
-        <FaCouch color='blue'/>
-        <FaCouch color='blue'/>
-        <FaCouch color='blue'/>
-        </div>
-        <div className="seat_bottom_1">
 
-        <FaCouch color='blue'/>
-        <FaCouch color='blue'/>
-        <FaCouch color='blue'/>
-        <FaCouch color='blue'/>
-        <FaCouch color='blue'/>
-        </div>
-        <div className="seat_bottom_2">
-        <FaCouch color='blue'/>
-        <FaCouch color='blue'/>
-        <FaCouch color='blue'/>
-        <FaCouch color='blue'/>
-        <FaCouch color='blue'/>
-        </div>
+            {/* red */}
 
+            <div className="seat_1">
+                <div className="seat_top_1">
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                </div>
+                
+
+                {/* blue */}
+
+                <div className="seat_bottom_1">
+
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                </div>
+            </div>
+            <div className="seat_2">
+                <div className="seat_top_2">
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                </div>
+                
+
+                {/* blue */}
+
+                <div className="seat_bottom_2">
+
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                </div>
+            </div>
+            <div className="seat_3">
+                <div className="seat_top_1">
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                </div>
+                
+
+                {/* blue */}
+
+                <div className="seat_bottom_1">
+
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                <FaCouch color='red' size={'25'}/>
+                </div>
+            </div>
+            <div className="seat_4">
+                <div className="seat_top_2">
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                </div>
+                
+
+                {/* blue */}
+
+                <div className="seat_bottom_2">
+
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                <FaCouch color='blue' size={'25'}/>
+                </div>
+            </div>
+
+
+        </div>
     </div>
-
     </>
   )
 }
