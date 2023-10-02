@@ -123,6 +123,23 @@ a{
     box-shadow: 0px 1px 7px rgba(0, 0, 0, 2);
 }
 
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit input{
+    /*margin-top: -35px;*/
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    width: 200px;
+    height: 35px;
+    padding: 0px 5px;
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 2);
+}
+
 @media screen and (max-width: 480px) {
     .nav{
         display: block;
