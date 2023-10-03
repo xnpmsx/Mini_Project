@@ -60,6 +60,12 @@ const Flight = () => {
 
                 <MdEventSeat color='blue' size={'25'}/>
                 </div>
+                <div className="seat_left_5">
+                <MdEventSeat color='red' size={'25'}/> 
+                </div>
+                
+
+                {/* blue */}
             </div>
             <div className="seat_2">
                 <div className="seat_right_1">
@@ -83,6 +89,10 @@ const Flight = () => {
                 <div className="seat_right_4">
 
                 <MdEventSeat color='blue' size={'25'}/>
+                </div>
+                <div className="seat_right_5">
+
+                <MdEventSeat color='red' size={'25'}/>
                 </div>
             </div>
 
