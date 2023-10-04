@@ -36,7 +36,6 @@ const Flight = () => {
 
 
             {/* red */}
-
             <div className="seat_1">
                 <div className="seat_left_1">
                 <MdEventSeat color='red' size={'25'}/> 
