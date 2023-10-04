@@ -3,37 +3,36 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
 }
 .seat_main_2{
     margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
 }
 
-.seat_top_1{
+.seat_left_1{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 25px;
+    flex-direction: row;
+    margin-right: 50px;
 }
-.seat_top_2{
+.seat_left_2{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 25px;
+    margin-right: 50px;
 }
-.seat_bottom_1{
+.seat_right_1{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 25px;
+    margin-right: 50px;
 }
-.seat_bottom_2{
+.seat_right_2{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 25px;
+    margin-right: 50px;
 }
