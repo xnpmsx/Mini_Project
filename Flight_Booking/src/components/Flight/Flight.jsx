@@ -41,58 +41,47 @@ const Flight = () => {
                 <MdEventSeat color='red' size={'25'}/> 
                 </div>
                 
-
-                {/* blue */}
-
                 <div className="seat_left_2">
-
                 <MdEventSeat color='red' size={'25'}/>
                 </div>
-                <div className="seat_left_3">
-                <MdEventSeat color='blue' size={'25'}/> 
-                </div>
-                
 
-                {/* blue */}
+                <div className="seat_left_3">
+                <MdEventSeat color='red' size={'25'}/> 
+                </div>
 
                 <div className="seat_left_4">
-
-                <MdEventSeat color='blue' size={'25'}/>
+                <MdEventSeat color='red' size={'25'}/>
                 </div>
+
                 <div className="seat_left_5">
                 <MdEventSeat color='red' size={'25'}/> 
                 </div>
-                
-
-                {/* blue */}
+              
             </div>
+
+            {/* blue */}
+
             <div className="seat_2">
                 <div className="seat_right_1">
-                <MdEventSeat color='red' size={'25'}/>
+                <MdEventSeat color='blue' size={'25'}/>
                 </div>
-                
-
-                {/* blue */}
 
                 <div className="seat_right_2">
-
-                <MdEventSeat color='red' size={'25'}/>
+                <MdEventSeat color='blue' size={'25'}/>
                 </div>
+
                 <div className="seat_right_3">
                 <MdEventSeat color='blue' size={'25'}/>
                 </div>
-                
-
-                {/* blue */}
 
                 <div className="seat_right_4">
-
                 <MdEventSeat color='blue' size={'25'}/>
                 </div>
-                <div className="seat_right_5">
 
-                <MdEventSeat color='red' size={'25'}/>
+                <div className="seat_right_5">
+                <MdEventSeat color='blue' size={'25'}/>
                 </div>
+                
             </div>
 
 
