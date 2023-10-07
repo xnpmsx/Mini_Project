@@ -62,24 +62,47 @@ const Flight = () => {
             {/* blue */}
 
             <div className="seat_2">
-                <div className="seat_right_1">
+                <div className="seat_mid_1">
                 <MdEventSeat color='blue' size={'25'}/>
+                </div>
+
+                <div className="seat_mid_2">
+                <MdEventSeat color='blue' size={'25'}/>
+                </div>
+
+                <div className="seat_mid_3">
+                <MdEventSeat color='blue' size={'25'}/>
+                </div>
+
+                <div className="seat_mid_4">
+                <MdEventSeat color='blue' size={'25'}/>
+                </div>
+
+                <div className="seat_mid_5">
+                <MdEventSeat color='blue' size={'25'}/>
+                </div>
+                
+            </div>
+
+            <div className="seat_3">
+                <div className="seat_right_1">
+                <MdEventSeat color='red' size={'25'}/>
                 </div>
 
                 <div className="seat_right_2">
-                <MdEventSeat color='blue' size={'25'}/>
+                <MdEventSeat color='red' size={'25'}/>
                 </div>
 
                 <div className="seat_right_3">
-                <MdEventSeat color='blue' size={'25'}/>
+                <MdEventSeat color='red' size={'25'}/>
                 </div>
 
                 <div className="seat_right_4">
-                <MdEventSeat color='blue' size={'25'}/>
+                <MdEventSeat color='red' size={'25'}/>
                 </div>
-
+              
                 <div className="seat_right_5">
-                <MdEventSeat color='blue' size={'25'}/>
+                <MdEventSeat color='red' size={'25'}/>
                 </div>
                 
             </div>
