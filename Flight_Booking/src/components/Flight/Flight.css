@@ -19,6 +19,12 @@
     justify-content: center;
     align-items: center;
 }
+.seat_main_5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
 .A{
     display: flex;
     align-items: center;
@@ -109,6 +115,21 @@
 }
 .seat_3_main_4{
     border-bottom: 1px solid black;
+    padding: 25px 0px 25px 25px;
+    display: flex;
+    flex-direction: row;
+}
+.seat_1_main_5{
+    padding: 25px 0px 25px 25px;
+    display: flex;
+    flex-direction: row;
+}
+.seat_2_main_5{
+    padding: 25px 0px 25px 25px;
+    display: flex;
+    flex-direction: row;
+}
+.seat_3_main_5{
     padding: 25px 0px 25px 25px;
     display: flex;
     flex-direction: row;

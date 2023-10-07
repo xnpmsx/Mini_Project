@@ -342,6 +342,60 @@ const Flight = () => {
             </div>
         </div>
 
+        <div className="seat_main_5">
+              <div className="seat_1_main_5">
+                <div className="seat_left_1">
+                  1
+                </div>
+                <div className="seat_left_2">
+                  2
+                </div>
+                <div className="seat_left_3">
+                  3
+                </div>
+                <div className="seat_left_4">
+                  4
+                </div>
+                <div className="seat_left_5">
+                  5
+                </div>
+              </div>
+              <div className="seat_3_main_5">
+                <div className="seat_left_1">
+                  6
+                </div>
+                <div className="seat_left_2">
+                  7
+                </div>
+                <div className="seat_left_3">
+                  8
+                </div>
+                <div className="seat_left_4">
+                  9
+                </div>
+                <div className="seat_left_5">
+                  10
+                </div>
+              </div>
+              <div className="seat_3_main_5">
+                <div className="seat_left_1">
+                  11
+                </div>
+                <div className="seat_left_2">
+                  12
+                </div>
+                <div className="seat_left_3">
+                  13
+                </div>
+                <div className="seat_left_4">
+                  14
+                </div>
+                <div className="seat_left_5">
+                  15
+                </div>
+              </div>
+        </div>
+
     </div>
     </>
   )
