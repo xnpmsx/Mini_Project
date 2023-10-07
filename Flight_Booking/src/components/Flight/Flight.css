@@ -19,6 +19,34 @@
     justify-content: center;
     align-items: center;
 }
+.A{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+    font-weight: bold;
+}
+.B{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+    font-weight: bold;
+}
+.C{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+    font-weight: bold;
+}
+.D{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+    font-weight: bold;
+}
 .seat_1{
     border-top: 1px solid black;
     padding: 25px 0px 0px 25px;
@@ -150,6 +178,7 @@
     justify-content: center;
     align-items: center;
     margin-right: 10px;
+    size: 10px;
 }
 .seat_right_2{
     display: flex;
