@@ -344,53 +344,53 @@ const Flight = () => {
 
         <div className="seat_main_5">
               <div className="seat_1_main_5">
-                <div className="seat_left_1">
+                <div className="seat_left_1_main_5">
                   1
                 </div>
-                <div className="seat_left_2">
+                <div className="seat_left_2_main_5">
                   2
                 </div>
-                <div className="seat_left_3">
+                <div className="seat_left_3_main_5">
                   3
                 </div>
-                <div className="seat_left_4">
+                <div className="seat_left_4_main_5">
                   4
                 </div>
-                <div className="seat_left_5">
+                <div className="seat_left_5_main_5">
                   5
                 </div>
               </div>
               <div className="seat_3_main_5">
-                <div className="seat_left_1">
+                <div className="seat_mid_1_main_5">
                   6
                 </div>
-                <div className="seat_left_2">
+                <div className="seat_mid_2_main_5">
                   7
                 </div>
-                <div className="seat_left_3">
+                <div className="seat_mid_3_main_5">
                   8
                 </div>
-                <div className="seat_left_4">
+                <div className="seat_mid_4_main_5">
                   9
                 </div>
-                <div className="seat_left_5">
+                <div className="seat_mid_5_main_5">
                   10
                 </div>
               </div>
               <div className="seat_3_main_5">
-                <div className="seat_left_1">
+                <div className="seat_right_1_main_5">
                   11
                 </div>
-                <div className="seat_left_2">
+                <div className="seat_right_2_main_5">
                   12
                 </div>
-                <div className="seat_left_3">
+                <div className="seat_right_3_main_5">
                   13
                 </div>
-                <div className="seat_left_4">
+                <div className="seat_right_4_main_5">
                   14
                 </div>
-                <div className="seat_left_5">
+                <div className="seat_right_5_main_5">
                   15
                 </div>
               </div>

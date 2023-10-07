@@ -120,19 +120,22 @@
     flex-direction: row;
 }
 .seat_1_main_5{
-    padding: 25px 0px 25px 25px;
+    padding: 25px 0px 25px 50px;
     display: flex;
     flex-direction: row;
+    font-weight: bold;
 }
 .seat_2_main_5{
     padding: 25px 0px 25px 25px;
     display: flex;
     flex-direction: row;
+    font-weight: bold;
 }
 .seat_3_main_5{
     padding: 25px 0px 25px 25px;
     display: flex;
     flex-direction: row;
+    font-weight: bold;
 }
 .seat_left_1{
     display: flex;
@@ -224,4 +227,96 @@
     justify-content: center;
     align-items: center;
     margin-right: 10px;
+}
+
+.seat_left_1_main_5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+.seat_left_2_main_5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+.seat_left_3_main_5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+.seat_left_4_main_5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+.seat_left_5_main_5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+.seat_mid_1_main_5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+.seat_mid_2_main_5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+.seat_mid_3_main_5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+.seat_mid_4_main_5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+.seat_mid_5_main_5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3px;
+}
+.seat_right_1_main_5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    size: 10px;
+}
+.seat_right_2_main_5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.seat_right_3_main_5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.seat_right_4_main_5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.seat_right_5_main_5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
 }
