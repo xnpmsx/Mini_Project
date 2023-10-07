@@ -395,7 +395,9 @@ const Flight = () => {
                 </div>
               </div>
         </div>
-
+        <div className="btn">
+          <button>Next</button>
+        </div>
     </div>
     </>
   )
