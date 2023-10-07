@@ -30,9 +30,11 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="content">
-        <h1>เริ่มเดินทางได้แล้ววันนี้</h1>
-        <h2>จองเที่ยวบินทั่วโลกสำหรับทริปของคุณด้วยข้อเสนอที่ดีที่สุด</h2>
+      <div className="main">
+        <div className="content">
+          <h1>เริ่มเดินทางได้แล้ววันนี้</h1>
+          <h2>จองเที่ยวบินทั่วโลกสำหรับทริปของคุณด้วยข้อเสนอที่ดีที่สุด</h2>
+        </div>
       </div>
       <form action="" method="post">
       <div className="datainput">
