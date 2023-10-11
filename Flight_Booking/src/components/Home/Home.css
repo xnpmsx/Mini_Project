@@ -149,6 +149,45 @@ a{
     box-shadow: 0px 1px 7px rgba(0, 0, 0, 2);
 }
 
+.ticket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.ticket-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 600px;
+    height: 75px;
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 2);
+}
+
+.goto{
+    margin-right: 20px;
+}
+.date{
+    margin-right: 20px;
+}
+.time{
+    margin-right: 20px;
+}
+.next{
+    background-color: #333;
+    height: 30px;
+    width: 90px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.next a{
+    color: white;
+}
+
 @media screen and (max-width: 480px) {
     .nav{
         display: block;
