@@ -39,12 +39,12 @@ const Home = () => {
       <form action="" method="post">
       <div className="datainput">
           <input type="text" className='inputwhere' placeholder='เดินทางไปที่ไหน'/>
+          <input type="text" className='inputwhere' placeholder='วัน'/>
           <input type="text" className='inputwhere' placeholder='เวลา'/>
-          <input type="text" className='inputwhere' placeholder='ปลายทาง'/>
-          <input type="text" className='inputwhere' placeholder='ชื่อ'/>
+          
         </div>
         <div className="submit">
-          <Link to='/Flight'>Confrim</Link>
+          <button>Search</button>
         </div>
       </form>
        
