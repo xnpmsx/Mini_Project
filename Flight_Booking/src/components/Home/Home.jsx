@@ -2,10 +2,6 @@ import React from 'react'
 import './Home.css'
 import { Link } from 'react-router-dom'
 
-function Maketicket(){
-    
-}
-
 const Home = () => {
   return (
     <>
@@ -48,7 +44,7 @@ const Home = () => {
           
         </div>      
         <div className="submit">
-          <button>Search</button>
+          <Link to='#'>Search</Link>
           
         </div>
        

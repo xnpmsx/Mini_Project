@@ -327,11 +327,14 @@
     flex-direction: row;
     margin: 0px 300px 0px 300px;
 }
-button{ 
+.btn-main a{ 
     background-color: black;
     border-radius: 30px;
     height: 50px;
     width: 150px;
     color: white;
     font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -10,6 +10,7 @@ import Home from './components/Home/Home.jsx';
 import Login from './components/Login/Login.jsx';
 import Signin from './components/Signin/Signin.jsx';
 import Flight from './components/Flight/Flight.jsx';
+import Ticket from './components/Ticket/Ticket.jsx';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: 'Flight',
     element: <Flight/>
+  },
+  {
+    path: 'Ticket',
+    element: <Ticket/>
   },
 ])
 
