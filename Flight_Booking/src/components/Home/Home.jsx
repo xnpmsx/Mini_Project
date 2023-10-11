@@ -86,6 +86,70 @@ const Home = () => {
                 </div>
         </div>
     </div> 
+    <div className="ticket">
+        <div className="ticket-form">
+                <div className="goto">
+                    เดินทางไปที่ : Thailand 
+                </div>
+                <div className="date">
+                    วัน : 01/12/2024
+                </div>
+                <div className="time">
+                    เวลา : 09:00 น.
+                </div>
+                <div className="next">
+                    <Link to="/Flight">จองที่นั่ง</Link>
+                </div>
+        </div>
+    </div> 
+    <div className="ticket">
+        <div className="ticket-form">
+                <div className="goto">
+                    เดินทางไปที่ : Thailand 
+                </div>
+                <div className="date">
+                    วัน : 01/12/2024
+                </div>
+                <div className="time">
+                    เวลา : 09:00 น.
+                </div>
+                <div className="next">
+                    <Link to="/Flight">จองที่นั่ง</Link>
+                </div>
+        </div>
+    </div> 
+    <div className="ticket">
+        <div className="ticket-form">
+                <div className="goto">
+                    เดินทางไปที่ : Thailand 
+                </div>
+                <div className="date">
+                    วัน : 01/12/2024
+                </div>
+                <div className="time">
+                    เวลา : 09:00 น.
+                </div>
+                <div className="next">
+                    <Link to="/Flight">จองที่นั่ง</Link>
+                </div>
+        </div>
+    </div> 
+    <div className="ticket">
+        <div className="ticket-form">
+                <div className="goto">
+                    เดินทางไปที่ : Thailand 
+                </div>
+                <div className="date">
+                    วัน : 01/12/2024
+                </div>
+                <div className="time">
+                    เวลา : 09:00 น.
+                </div>
+                <div className="next">
+                    <Link to="/Flight">จองที่นั่ง</Link>
+                </div>
+        </div>
+    </div> 
     </>
   )
 }
