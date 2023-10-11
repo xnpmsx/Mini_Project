@@ -45,6 +45,7 @@ const Home = () => {
         </div>
         <div className="submit">
           <button>Search</button>
+          
         </div>
       </form>
        
