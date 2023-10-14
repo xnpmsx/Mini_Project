@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import './Pay.css'
 
 function Pay() {
   return (
@@ -29,7 +31,13 @@ function Pay() {
                 </div>
             </div>
 
-            PAY
+            <div className="main-pay">
+                <div className="data-pay">
+                    <div className="username">
+                        Username :
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
   )
