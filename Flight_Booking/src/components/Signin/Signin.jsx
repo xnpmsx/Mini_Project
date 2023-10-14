@@ -1,39 +1,61 @@
 import React, { useState } from "react";
 import "./Signin.css";
 import { Link } from "react-router-dom";
-const Signin = () => {
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
-  const [name, setName] = useState("");
-  const [surname, setSurname] = useState("");
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
+function MyForm() {
+  const [formData, setFormData] = useState({
+    username: '',
+    password: '',
+    name: '',
+    surname: '',
+    email: '',
+    phone: '',
+  });
 
-  const handleInputChange = (e) => {
+  const handleChange = (e) => {
     const { name, value } = e.target;
-    switch (name) {
-      case "username":
-        setUsername(value);
-        break;
-      case "name":
-        setName(value);
-        break;
-      case "surname":
-        setSurname(value);
-        break;
-      case "password":
-        setPassword(value);
-        break;
-      case "email":
-        setEmail(value);
-        break;
-      case "phone":
-        setPhone(value);
-        break;
-      default:
-        break;
-    }
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
   };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log('Form data:', formData);
+    // You can now send the formData to an API or perform other actions.
+  };
+  // const [username, setUsername] = useState("");
+  // const [password, setPassword] = useState("");
+  // const [name, setName] = useState("");
+  // const [surname, setSurname] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [phone, setPhone] = useState("");
+
+  // const handleInputChange = (e) => {
+  //   const { name, value } = e.target;
+  //   switch (name) {
+  //     case "username":
+  //       setUsername(value);
+  //       break;
+  //     case "name":
+  //       setName(value);
+  //       break;
+  //     case "surname":
+  //       setSurname(value);
+  //       break;
+  //     case "password":
+  //       setPassword(value);
+  //       break;
+  //     case "email":
+  //       setEmail(value);
+  //       break;
+  //     case "phone":
+  //       setPhone(value);
+  //       break;
+  //     default:
+  //       break;
+  //   }
+  // };
 
   // const register = () => {
   //   // Data
@@ -68,8 +90,8 @@ const Signin = () => {
                   <input
                     type="text"
                     name="username"
-                    value={username}
-                    onChange={handleInputChange}
+                    value={formData.username}
+                    onChange={handleChange}
                     required
                   />
                 </div>
@@ -79,8 +101,8 @@ const Signin = () => {
                   <input
                     type="text"
                     name="name"
-                    value={name}
-                    onChange={handleInputChange}
+                    value={formData.name}
+                    onChange={handleChange}
                     required
                   />
                 </div>
@@ -90,8 +112,8 @@ const Signin = () => {
                   <input
                     type="text"
                     name="surname"
-                    value={surname}
-                    onChange={handleInputChange}
+                    value={formData.surname}
+                    onChange={handleChange}
                     required
                   />
                 </div>
@@ -102,8 +124,8 @@ const Signin = () => {
                   <input
                     type="text"
                     name="password"
-                    value={password}
-                    onChange={handleInputChange}
+                    value={formData.password}
+                    onChange={handleChange}
                     required
                   />
                 </div>
@@ -112,8 +134,8 @@ const Signin = () => {
                   <input
                     type="text"
                     name="email"
-                    value={email}
-                    onChange={handleInputChange}
+                    value={formData.email}
+                    onChange={handleChange}
                     required
                   />
                 </div>
@@ -123,15 +145,15 @@ const Signin = () => {
                   <input
                     type="text"
                     name="phone"
-                    value={phone}
-                    onChange={handleInputChange}
+                    value={formData.phone}
+                    onChange={handleChange}
                     required
                   />
                 </div>
               </div>
             </div>
             <div className="regis-input-submit">
-              <button>Register</button>
+              <button onClick={handleSubmit}>Register</button>
               <div className="regis-input-submit-tologin">
                 Already have account ? <Link to="/login">Login</Link>
               </div>
