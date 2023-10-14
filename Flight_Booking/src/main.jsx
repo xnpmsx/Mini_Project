@@ -11,6 +11,7 @@ import Login from './components/Login/Login.jsx';
 import Signin from './components/Signin/Signin.jsx';
 import Flight from './components/Flight/Flight.jsx';
 import Ticket from './components/Ticket/Ticket.jsx';
+import Pay from './components/Pay/Pay.jsx';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
   {
     path: 'Ticket',
     element: <Ticket/>
+  },
+  {
+    path: 'Pay',
+    element: <Pay/>
   },
 ])
 

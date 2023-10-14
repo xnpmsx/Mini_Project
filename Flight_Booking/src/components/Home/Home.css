@@ -63,12 +63,10 @@ a{
     font-size: 18px;
 }
 .navhome{
-    background-color: black;
-    padding: 10px 25px 10px 25px;
     border-radius: 30px;
 }
 .navhome a{
-    color: #fff;
+    color: #333;
 }
 .navorder a{
     color: #333;

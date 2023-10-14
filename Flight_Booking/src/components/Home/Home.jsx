@@ -37,115 +37,19 @@ const Home = () => {
           <h2>จองเที่ยวบินทั่วโลกสำหรับทริปของคุณด้วยข้อเสนอที่ดีที่สุด</h2>
         </div>
       </div>
-      <div className="datainput">
-          <input type="text" className='inputwhere' placeholder='เดินทางไปที่ไหน'/>
-          <input type="text" className='inputwhere' placeholder='วัน'/>
-          <input type="text" className='inputwhere' placeholder='เวลา'/>
-          
+        <div className="datainput">
+            <input type="text" className='inputwhere' placeholder='เดินทางไปที่ไหน'/>
+            <input type="text" className='inputwhere' placeholder='วัน'/>
+            <input type="text" className='inputwhere' placeholder='เวลา'/>
         </div>      
         <div className="submit">
-          <Link to='#'>Search</Link>
+          <Link to='/Ticket'>Search</Link>
           
         </div>
        
     </div>
 
-    <div className="ticket">
-        <div className="ticket-form">
-                <div className="goto">
-                    เดินทางไปที่ : Thailand 
-                </div>
-                <div className="date">
-                    วัน : 01/12/2024
-                </div>
-                <div className="time">
-                    เวลา : 09:00 น.
-                </div>
-                <div className="next">
-                    <Link to="/Flight">จองที่นั่ง</Link>
-                </div>
-        </div>
-    </div> 
-    <div className="ticket">
-        <div className="ticket-form">
-                <div className="goto">
-                    เดินทางไปที่ : Thailand 
-                </div>
-                <div className="date">
-                    วัน : 01/12/2024
-                </div>
-                <div className="time">
-                    เวลา : 09:00 น.
-                </div>
-                <div className="next">
-                    <Link to="/Flight">จองที่นั่ง</Link>
-                </div>
-        </div>
-    </div> 
-    <div className="ticket">
-        <div className="ticket-form">
-                <div className="goto">
-                    เดินทางไปที่ : Thailand 
-                </div>
-                <div className="date">
-                    วัน : 01/12/2024
-                </div>
-                <div className="time">
-                    เวลา : 09:00 น.
-                </div>
-                <div className="next">
-                    <Link to="/Flight">จองที่นั่ง</Link>
-                </div>
-        </div>
-    </div> 
-    <div className="ticket">
-        <div className="ticket-form">
-                <div className="goto">
-                    เดินทางไปที่ : Thailand 
-                </div>
-                <div className="date">
-                    วัน : 01/12/2024
-                </div>
-                <div className="time">
-                    เวลา : 09:00 น.
-                </div>
-                <div className="next">
-                    <Link to="/Flight">จองที่นั่ง</Link>
-                </div>
-        </div>
-    </div> 
-    <div className="ticket">
-        <div className="ticket-form">
-                <div className="goto">
-                    เดินทางไปที่ : Thailand 
-                </div>
-                <div className="date">
-                    วัน : 01/12/2024
-                </div>
-                <div className="time">
-                    เวลา : 09:00 น.
-                </div>
-                <div className="next">
-                    <Link to="/Flight">จองที่นั่ง</Link>
-                </div>
-        </div>
-    </div> 
-    <div className="ticket">
-        <div className="ticket-form">
-                <div className="goto">
-                    เดินทางไปที่ : Thailand 
-                </div>
-                <div className="date">
-                    วัน : 01/12/2024
-                </div>
-                <div className="time">
-                    เวลา : 09:00 น.
-                </div>
-                <div className="next">
-                    <Link to="/Flight">จองที่นั่ง</Link>
-                </div>
-        </div>
-    </div> 
+    
     </>
   )
 }
