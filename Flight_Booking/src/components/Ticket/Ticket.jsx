@@ -32,8 +32,6 @@ function Ticket() {
             </div>
         </div>
 
-        Ticket
-
     </div>
   )
 }

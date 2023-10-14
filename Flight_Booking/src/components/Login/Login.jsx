@@ -1,7 +1,7 @@
 import React from 'react'
 import './Login.css'
 import { Link } from 'react-router-dom'
-const Signin = () => {
+const Login = () => {
   return (
     <>
       <div className="bg">
@@ -33,4 +33,4 @@ const Signin = () => {
   )
 }
 
-export default Signin
+export default Login

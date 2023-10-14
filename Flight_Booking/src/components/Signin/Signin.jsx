@@ -1,8 +1,5 @@
 import React from 'react'
 import './Signin.css'
-import { FaUser } from 'react-icons/fa'
-import { HiLockClosed } from 'react-icons/hi'
-import { MdEmail } from 'react-icons/md'
 import { Link } from 'react-router-dom'
 const Signin = () => {
   return (
@@ -11,34 +8,48 @@ const Signin = () => {
         <div className="img">
             
         </div>
+        <form action="" method="post">
         <div className="regis">
             <h3>Register</h3>
 
-           <div className="regis-input">
-              <div className="regis-input-username">
-                Username
-                <input type="text" required />
-              </div>
-              <div className="regis-input-name">
-                Name
-                <input type="text" required />
-              </div>
-              <div className="regis-input-password">
-                Password
-                <input type="password" required />
-              </div>
-              <div className="regis-input-email">
-                E-mail
-                <input type="email" required />
-              </div>
-              <div className="regis-input-submit">
-                <input type="submit" value={"Register"} required />
+           <div className="main">
+            <div className="regis-input">
+                <div className="regis-input-username">
+                    Username
+                    <input type="text" required />
+                </div>
+                <div className="regis-input-name">
+                    Name
+                    <input type="text" required />
+                </div>
+                <div className="regis-input-name">
+                    Surname
+                    <input type="text" required />
+                </div>
+            </div>
+            <div className="regis-input2">
+                <div className="regis-input-password">
+                    Password
+                    <input type="password" required />
+                    </div>
+                    <div className="regis-input-email">
+                    E-mail
+                    <input type="email" required />
+                    </div>
+                    <div className="regis-input-email">
+                    Phone
+                    <input type="number" required />
+                    </div>
+            </div>
+           </div>
+           <div className="regis-input-submit">
+                <button>Register</button>
                 <div className="regis-input-submit-tologin">
                   Already have account ? <Link to='/login'>Login</Link>
                 </div>
               </div>
-           </div>
         </div>
+        </form>
       </div>
     </>
   )
