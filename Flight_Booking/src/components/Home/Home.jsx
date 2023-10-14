@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import { Link } from 'react-router-dom'
+
 const Home = () => {
   return (
     <>
@@ -30,28 +31,121 @@ const Home = () => {
         </div>
       </div>
 
-      <div className= 'contain-content'>
-      <div className="content">
-        <h1>เริ่มเดินทางได้แล้ววันนี้</h1>
-        <h2>จองเที่ยวบินทั่วโลกสำหรับทริปของคุณด้วยข้อเสนอที่ดีที่สุด</h2>
+      <div className="main">
+        <div className="content">
+          <h1>เริ่มเดินทางได้แล้ววันนี้</h1>
+          <h2>จองเที่ยวบินทั่วโลกสำหรับทริปของคุณด้วยข้อเสนอที่ดีที่สุด</h2>
+        </div>
       </div>
-      </div>
-      <form action="" method="post">
       <div className="datainput">
           <input type="text" className='inputwhere' placeholder='เดินทางไปที่ไหน'/>
+          <input type="text" className='inputwhere' placeholder='วัน'/>
           <input type="text" className='inputwhere' placeholder='เวลา'/>
-          <input type="text" className='inputwhere' placeholder='ปลายทาง'/>
-          <input type="text" className='inputwhere' placeholder='ชื่อ'/>
-        </div>
+          
+        </div>      
         <div className="submit">
-          <Link to='/Flight'>Confrim</Link>
+          <Link to='#'>Search</Link>
+          
         </div>
-      </form>
        
-      
-
     </div>
 
+    <div className="ticket">
+        <div className="ticket-form">
+                <div className="goto">
+                    เดินทางไปที่ : Thailand 
+                </div>
+                <div className="date">
+                    วัน : 01/12/2024
+                </div>
+                <div className="time">
+                    เวลา : 09:00 น.
+                </div>
+                <div className="next">
+                    <Link to="/Flight">จองที่นั่ง</Link>
+                </div>
+        </div>
+    </div> 
+    <div className="ticket">
+        <div className="ticket-form">
+                <div className="goto">
+                    เดินทางไปที่ : Thailand 
+                </div>
+                <div className="date">
+                    วัน : 01/12/2024
+                </div>
+                <div className="time">
+                    เวลา : 09:00 น.
+                </div>
+                <div className="next">
+                    <Link to="/Flight">จองที่นั่ง</Link>
+                </div>
+        </div>
+    </div> 
+    <div className="ticket">
+        <div className="ticket-form">
+                <div className="goto">
+                    เดินทางไปที่ : Thailand 
+                </div>
+                <div className="date">
+                    วัน : 01/12/2024
+                </div>
+                <div className="time">
+                    เวลา : 09:00 น.
+                </div>
+                <div className="next">
+                    <Link to="/Flight">จองที่นั่ง</Link>
+                </div>
+        </div>
+    </div> 
+    <div className="ticket">
+        <div className="ticket-form">
+                <div className="goto">
+                    เดินทางไปที่ : Thailand 
+                </div>
+                <div className="date">
+                    วัน : 01/12/2024
+                </div>
+                <div className="time">
+                    เวลา : 09:00 น.
+                </div>
+                <div className="next">
+                    <Link to="/Flight">จองที่นั่ง</Link>
+                </div>
+        </div>
+    </div> 
+    <div className="ticket">
+        <div className="ticket-form">
+                <div className="goto">
+                    เดินทางไปที่ : Thailand 
+                </div>
+                <div className="date">
+                    วัน : 01/12/2024
+                </div>
+                <div className="time">
+                    เวลา : 09:00 น.
+                </div>
+                <div className="next">
+                    <Link to="/Flight">จองที่นั่ง</Link>
+                </div>
+        </div>
+    </div> 
+    <div className="ticket">
+        <div className="ticket-form">
+                <div className="goto">
+                    เดินทางไปที่ : Thailand 
+                </div>
+                <div className="date">
+                    วัน : 01/12/2024
+                </div>
+                <div className="time">
+                    เวลา : 09:00 น.
+                </div>
+                <div className="next">
+                    <Link to="/Flight">จองที่นั่ง</Link>
+                </div>
+        </div>
+    </div> 
     </>
   )
 }
