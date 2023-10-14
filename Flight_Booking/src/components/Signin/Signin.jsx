@@ -62,55 +62,6 @@ const Signin = () => {
   };
 
 
-  // const [username, setUsername] = useState("");
-  // const [password, setPassword] = useState("");
-  // const [name, setName] = useState("");
-  // const [surname, setSurname] = useState("");
-  // const [email, setEmail] = useState("");
-  // const [phone, setPhone] = useState("");
-
-  // const handleInputChange = (e) => {
-  //   const { name, value } = e.target;
-  //   switch (name) {
-  //     case "username":
-  //       setUsername(value);
-  //       break;
-  //     case "name":
-  //       setName(value);
-  //       break;
-  //     case "surname":
-  //       setSurname(value);
-  //       break;
-  //     case "password":
-  //       setPassword(value);
-  //       break;
-  //     case "email":
-  //       setEmail(value);
-  //       break;
-  //     case "phone":
-  //       setPhone(value);
-  //       break;
-  //     default:
-  //       break;
-  //   }
-  // };
-
-  // const register = () => {
-  //   // Data
-  //   var registerData = {
-  //     username: username,
-  //     password: password,
-  //     fname:  name,
-  //     surname: surname,
-  //     email:  email,
-  //     phone: phone,
-  //   };
-
-  //   console.log(registerData);
-  //   alert(registerData);
-  // };
-
-  //Bliding data
 
   return (
     <>
