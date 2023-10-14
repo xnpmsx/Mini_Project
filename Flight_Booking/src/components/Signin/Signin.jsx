@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 import "./Signin.css";
 import { Link } from "react-router-dom";
-function MyForm() {
+import axios from 'axios';
+const Signin = () => {
+  
+
   const [formData, setFormData] = useState({
     username: '',
     password: '',
-    name: '',
+    fname: '',
     surname: '',
     email: '',
     phone: '',
@@ -22,8 +25,43 @@ function MyForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Form data:', formData);
-    // You can now send the formData to an API or perform other actions.
+
+    // Create an object to send as the request body
+    const requestBody = {
+      username: formData.username,
+      password: formData.password,
+      fname: formData.fname,
+      surname: formData.surname,
+      email: formData.email,
+      phone: formData.phone,
+    };
+
+    // Send a POST request using Axios
+    axios.post('http://localhost:3333/register', requestBody)
+      .then((response) => {
+        console.log('Response from the API:', response.data);
+        // You can handle the API response data here
+      })
+      .catch((error) => {
+        if (error.response) {
+          // Handle server response error
+          console.error('Response data:', error.response.data);
+          console.error('Response status:', error.response.status);
+          console.error('Response headers:', error.response.headers);
+          setError(error.response.data);
+        } else if (error.request) {
+          // Handle network error or server unresponsiveness
+          console.error('Request made, but no response received:', error.request);
+          setError('Network error - no response received');
+        } else {
+          // Handle request setup error
+          console.error('Error setting up the request:', error.message);
+          setError('Request setup error');
+        }
+      });
   };
+
+
   // const [username, setUsername] = useState("");
   // const [password, setPassword] = useState("");
   // const [name, setName] = useState("");
@@ -100,8 +138,8 @@ function MyForm() {
                   Name
                   <input
                     type="text"
-                    name="name"
-                    value={formData.name}
+                    name="fname"
+                    value={formData.fname}
                     onChange={handleChange}
                     required
                   />
@@ -139,7 +177,7 @@ function MyForm() {
                     required
                   />
                 </div>
-                //Phone
+
                 <div className="regis-input-email">
                   Phone
                   <input
@@ -164,5 +202,6 @@ function MyForm() {
     </>
   );
 };
+
 
 export default Signin;
