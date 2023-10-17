@@ -1,0 +1,16 @@
+.main-pay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 2);
+}
+.data-pay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.username{
+    font-weight: bold;
+}
