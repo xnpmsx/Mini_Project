@@ -1,12 +1,7 @@
 import React from 'react'
 import './Home.css'
 import { Link, NavLink } from 'react-router-dom'
-
-const Home = () => {
-  return (
-    <>
-    <div className='Home'>
-      <div className='nav'>
+/* <div className='nav'>
         <div className="logo">
           <Link to="/">Canfly</Link>
         </div> 
@@ -30,6 +25,35 @@ const Home = () => {
           </div>
         </div>
       </div>
+*/
+const Home = () => {
+  return (
+    <>
+    <div className='Home'>
+      <nav>
+        <div className="logo">
+            <Link to="/">Canfly</Link>
+        </div> 
+        <div className="navcenter">
+        <div className="navhome">
+            <Link to="/">Home</Link>
+        </div>
+        <div className="navorder">
+            <Link to="/">Your order</Link>
+        </div>
+        <div className="navfav">
+            <Link to="/">Favourites</Link>
+        </div>
+        </div>
+        <div className="in">
+        <div className='sign'>
+            <Link to="/Signin">SIGN IN</Link>
+        </div>
+        <div className='log'>
+            <Link to="/Login">LOG IN</Link>
+        </div>
+        </div>
+      </nav>
 
       <div className="main">
         <div className="content">

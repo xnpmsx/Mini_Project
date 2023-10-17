@@ -50,7 +50,7 @@ a{
 .logo a{
     color: #333;
 }
-.nav{
+nav{
     display: flex;
     justify-content: space-between;
     margin: 50px 150px 30px 150px;
