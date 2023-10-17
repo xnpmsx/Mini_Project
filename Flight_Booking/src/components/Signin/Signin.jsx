@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import "./Signin.css";
 import { Link } from "react-router-dom";
 import axios from 'axios';
+// import { useHistory } from 'react-router-dom';
 const Signin = () => {
   
-
+  // const history = useHistory();
   const [formData, setFormData] = useState({
     username: '',
     password: '',
@@ -41,6 +42,7 @@ const Signin = () => {
       .then((response) => {
         console.log('Response from the API:', response.data);
         // You can handle the API response data here
+        // history.push('/Login');
       })
       .catch((error) => {
         if (error.response) {
