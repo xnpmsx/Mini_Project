@@ -35,15 +35,15 @@ const Home = () => {
             <Link to="/">Canfly</Link>
         </div> 
         <div className="navcenter">
-        <div className="navhome">
-            <Link to="/">Home</Link>
-        </div>
-        <div className="navorder">
-            <Link to="/">Your order</Link>
-        </div>
-        <div className="navfav">
-            <Link to="/">Favourites</Link>
-        </div>
+            <div className="navhome">
+                <Link to="/">Home</Link>
+            </div>
+            <div className="navorder">
+                <Link to="/">Your order</Link>
+            </div>
+            <div className="navfav">
+                <Link to="/">Favourites</Link>
+            </div>
         </div>
         <div className="in">
         <div className='sign'>
@@ -55,12 +55,13 @@ const Home = () => {
         </div>
       </nav>
 
-      <div className="main">
-        <div className="content">
-          <h1>เริ่มเดินทางได้แล้ววันนี้</h1>
-          <h2>จองเที่ยวบินทั่วโลกสำหรับทริปของคุณด้วยข้อเสนอที่ดีที่สุด</h2>
-        </div>
-      </div>
+        <article>
+            <div className="content">
+            <h1>เริ่มเดินทางได้แล้ววันนี้</h1>
+            <h2>จองเที่ยวบินทั่วโลกสำหรับทริปของคุณด้วยข้อเสนอที่ดีที่สุด</h2>
+            </div>
+        </article>
+
         <div className="datainput">
             <input type="text" className='inputwhere' placeholder='เดินทางไปที่ไหน'/>
             <input type="text" className='inputwhere' placeholder='วัน'/>

@@ -13,11 +13,12 @@
 
 /* content */
 
-.main{
+article{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 
 .content{
@@ -53,10 +54,11 @@ a{
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 150px 30px 150px;
+    margin: 50px 150px 50px 150px;
 }
 .navcenter{
     display: flex;
+    margin-left: 100px;
     justify-content: space-between;
     align-items: center;
     width: 350px;
