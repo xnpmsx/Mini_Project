@@ -2,10 +2,14 @@ import React, { useState } from "react";
 import "./Signin.css";
 import { Link } from "react-router-dom";
 import axios from 'axios';
-// import { useHistory } from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
+
 const Signin = () => {
   
-  // const history = useHistory();
+  //redirect
+  const navigate = useNavigate();
+
+  //set data
   const [formData, setFormData] = useState({
     username: '',
     password: '',
@@ -42,11 +46,13 @@ const Signin = () => {
       .then((response) => {
         console.log('Response from the API:', response.data);
         // You can handle the API response data here
-        // history.push('/Login');
+        alert("Signin complete");
+        navigate('/Login');
       })
       .catch((error) => {
         if (error.response) {
           // Handle server response error
+          setError(error.response.data.error);
           console.error('Response data:', error.response.data);
           console.error('Response status:', error.response.status);
           console.error('Response headers:', error.response.headers);
