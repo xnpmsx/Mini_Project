@@ -1,7 +1,12 @@
 import React, { useState } from "react";
 import "./Login.css";
 import { Link } from "react-router-dom";
+import axios from 'axios';
+import {useNavigate} from 'react-router-dom';
 const Login = () => {
+
+  const navigate = useNavigate();
+
   const [formData, setFormData] = useState({
     username: "",
     password: "",
@@ -22,11 +27,20 @@ const Login = () => {
     axios.post("http://localhost:3333/login", formData)
       .then((response) => {
         console.log("Login successful:", response.data);
+        if(response.data.status=='ok'){
+          alert('Login successful ')
+          localStorage.setItem('token',response.data.token)
+          navigate('/');
+          
+        }else{
+          alert('Invalid username or password')
+        }
         // Handle the successful login response (e.g., store tokens, redirect)
       })
       .catch((error) => {
-        console.error("Login error:", error);
+        console.error("Login error:", error.response.data);
         // Handle login error (e.g., show an error message)
+        alert("Incorrect information. Please check your credentials.");
       });
   };
 

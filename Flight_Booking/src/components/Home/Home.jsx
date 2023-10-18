@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{ useEffect } from 'react'
 import './Home.css'
 import { Link, NavLink } from 'react-router-dom'
 /* <div className='nav'>
@@ -27,6 +27,7 @@ import { Link, NavLink } from 'react-router-dom'
       </div>
 */
 const Home = () => {
+  
   return (
     <>
     <div className='Home'>
