@@ -396,7 +396,7 @@ const Flight = () => {
               </div>
         </div>
         <div className="btn-main">
-                <Link to='/'>Back</Link>
+                <Link to='/Ticket'>Back</Link>
                 <Link to='/Pay'>Next</Link>
         </div>
     </div>

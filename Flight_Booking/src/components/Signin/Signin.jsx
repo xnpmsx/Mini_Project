@@ -16,7 +16,7 @@ const Signin = () => {
             <div className="regis-input">
                 <div className="regis-input-username">
                     Username
-                    <input type="text" required />
+                    <input type="text" pattern='[a-z,A-Z,0-9]{1,}' required />
                 </div>
                 <div className="regis-input-name">
                     Name
