@@ -16,15 +16,15 @@ const Signin = () => {
             <div className="regis-input">
                 <div className="regis-input-username">
                     Username
-                    <input type="text" pattern='[a-z,A-Z,0-9]{1,}' required />
+                    <input type="text" pattern='[a-z,A-Z,0-9]{8,15}' required />
                 </div>
                 <div className="regis-input-name">
                     Name
-                    <input type="text" required />
+                    <input type="text" pattern='[a-z,A-Z,^[ก-๏\s]+$]{1,15}' required />
                 </div>
                 <div className="regis-input-name">
                     Surname
-                    <input type="text" required />
+                    <input type="text" pattern='[a-z,A-Z,^[ก-๏\s]+$]{1,15}' required />
                 </div>
             </div>
             <div className="regis-input2">
