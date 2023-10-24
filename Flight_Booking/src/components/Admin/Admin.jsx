@@ -5,11 +5,13 @@ function Admin() {
   return (
     <div>
         <div className='admin-nav'>
-            <div className="canfly">
-                Canfly
-            </div>
-            <div className="admin">
-                Admin name
+            <div className="admin-head">
+                <div className="canfly">
+                    Canfly
+                </div>
+                <div className="admin">
+                    Admin name
+                </div>
             </div>
         </div>
         <section>

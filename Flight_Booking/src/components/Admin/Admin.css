@@ -1,7 +1,18 @@
 .admin-nav{
-    height: 75px;
+    height: 85px;
     margin-bottom: 30px;
+    background-color: blue;
+}
+.admin-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     box-shadow: 0px 1px 7px rgba(0, 0, 0, 2);
+    background-color: aqua;
+}
+.canfly{
+    font-size: 30px;
+    background-color: red;
 }
 section{
     display: flex;
