@@ -7,6 +7,7 @@ import Flight from './components/Flight/Flight';
 import Ticket from './components/Ticket/Ticket';
 import Pay from './components/Pay/Pay';
 import Admin_user from './components/Admin_user/Admin_user';
+import Admin from './components/Admin/Admin';
 function App() {
 
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/Flight' element={<Flight />}></Route>
         <Route path='/Pay' element={<Pay />}></Route>
         <Route path='/Admin_user' element={<Admin_user />}></Route>
+        <Route path='/Admin' element={<Admin />}></Route>
       </Routes>
       
     </BrowserRouter>

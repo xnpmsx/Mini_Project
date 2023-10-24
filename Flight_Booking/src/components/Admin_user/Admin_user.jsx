@@ -13,7 +13,7 @@ function Admin_user() {
         <div className='admin-nav'>
             <div className="admin-head">
                 <div className="canfly">
-                    <Link to='/admin_user'>Canfly</Link>
+                    <Link to='/admin'>Canfly</Link>
                 </div>
                 <div className="admin">
                     Admin name
