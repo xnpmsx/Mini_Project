@@ -1,18 +1,25 @@
-.admin-nav{
-    height: 85px;
-    margin-bottom: 30px;
-    background-color: blue;
-}
 .admin-head{
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0px 1px 7px rgba(0, 0, 0, 2);
-    background-color: aqua;
+    padding: 0px 150px 0px 150px;
+    height: 90px;
+    margin-bottom: 30px;
 }
 .canfly{
-    font-size: 30px;
-    background-color: red;
+    font-size: 40px;
+}
+.admin{
+    background-color: blue;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
 }
 section{
     display: flex;
