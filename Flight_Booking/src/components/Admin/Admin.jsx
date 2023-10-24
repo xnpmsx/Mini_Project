@@ -1,5 +1,10 @@
 import React from 'react'
 import './Admin.css'
+import { IoExitOutline } from 'react-icons/io5'
+
+function exit(){
+    console.log("Log out")
+}
 
 function Admin() {
   return (
@@ -13,6 +18,7 @@ function Admin() {
                     Admin name
                 </div>
             </div>
+            <IoExitOutline className='icon-admin-exit' size={25} onClick={exit} />
         </div>
         <section>
             <div className="admin-datauser">

@@ -21,6 +21,11 @@
     color: #fff;
     font-size: 18px;
 }
+.icon-admin-exit{
+    position: absolute;
+    right: 115px;
+    top: 33px;
+}
 section{
     display: flex;
     justify-content: center;
