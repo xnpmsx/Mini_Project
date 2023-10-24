@@ -6,6 +6,7 @@ import Signin from './components/Signin/Signin';
 import Flight from './components/Flight/Flight';
 import Ticket from './components/Ticket/Ticket';
 import Pay from './components/Pay/Pay';
+import Admin from './components/Admin/Admin';
 function App() {
 
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/Ticket' element={<Ticket />}></Route>
         <Route path='/Flight' element={<Flight />}></Route>
         <Route path='/Pay' element={<Pay />}></Route>
+        <Route path='/Admin' element={<Admin />}></Route>
       </Routes>
       
     </BrowserRouter>
