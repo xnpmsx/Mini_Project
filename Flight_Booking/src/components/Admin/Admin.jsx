@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { IoExitOutline } from 'react-icons/io5'
+import './Admin.css'
 
 function Admin() {
   return (
@@ -24,6 +25,80 @@ function Admin() {
             </div>
             <IoExitOutline className='icon-admin-exit' size={25} />
         </div>
+        <div className="admin-main">
+            <div className="admin-main-user">
+                User : 10
+            </div>
+            <div className="admin-main-flight">
+                Flight : 15
+            </div>
+        </div>
+        <section>
+            <div className="list-user">
+                List Admin
+            </div>
+
+            <div className="admin-datauser">
+                <div className="admin-username">
+                    Username : TAGOYAGI
+                </div>
+                <div className="admin-name">
+                    Name : Eiei
+                </div>
+                <div className="admin-surname">
+                    Surname : Gaga
+                </div>
+                <div className="admin-phone">
+                    Phone : 0123456789
+                </div>
+                <div className="admin-edit">
+                    Edit
+                </div>
+                <div className="admin-delete">
+                    Delete
+                </div>
+            </div>
+            <div className="admin-datauser">
+                <div className="admin-username">
+                    Username : TAGOYAGI
+                </div>
+                <div className="admin-name">
+                    Name : Eiei
+                </div>
+                <div className="admin-surname">
+                    Surname : Gaga
+                </div>
+                <div className="admin-phone">
+                    Phone : 0123456789
+                </div>
+                <div className="admin-edit">
+                    Edit
+                </div>
+                <div className="admin-delete">
+                    Delete
+                </div>
+            </div>
+            <div className="admin-datauser">
+                <div className="admin-username">
+                    Username : TAGOYAGI
+                </div>
+                <div className="admin-name">
+                    Name : Eiei
+                </div>
+                <div className="admin-surname">
+                    Surname : Gaga
+                </div>
+                <div className="admin-phone">
+                    Phone : 0123456789
+                </div>
+                <div className="admin-edit">
+                    Edit
+                </div>
+                <div className="admin-delete">
+                    Delete
+                </div>
+            </div>
+        </section>
     </div>
   )
 }

@@ -30,6 +30,9 @@ function Admin_user() {
             <IoExitOutline className='icon-admin-exit' size={25} onClick={exit} />
         </div>
         <section>
+            <div className="list-user">
+                List User
+            </div>
             <div className="admin-datauser">
                 <div className="admin-username">
                     Username : TAGOYAGI
