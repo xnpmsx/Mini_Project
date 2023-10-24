@@ -10,6 +10,9 @@
 .canfly{
     font-size: 40px;
 }
+.canfly a{
+    color: rgb(66, 65, 65);
+}
 .admin{
     background-color: blue;
     width: 150px;
@@ -37,7 +40,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 700px;
+    width: 900px;
     height: 75px;
     border-radius: 30px;
     box-shadow: 0px 1px 7px rgba(0, 0, 0, 2);
@@ -53,4 +56,37 @@ section{
 }
 .admin-phone{
     margin: 20px;
+}
+.admin-edit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: blue;
+    border-radius: 30px;
+    width: 70px;
+    height: 30px;
+    color: #fff;
+}
+.admin-delete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 30px;
+    width: 70px;
+    height: 30px;
+    color: #fff;
+    margin-right: 10px;
+}
+.admin-add-user{
+    margin: 20px;
+    background-color: green;
+    color: #fff;
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
