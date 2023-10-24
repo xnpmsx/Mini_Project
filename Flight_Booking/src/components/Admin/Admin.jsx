@@ -10,6 +10,14 @@ function Admin() {
                 <div className="canfly">
                     <Link to='/admin'>Canfly</Link>
                 </div>
+                <div className="admin-topic">
+                    <div className="admin-topic-user">
+                        <Link to='/admin_user'>User</Link>
+                    </div>
+                    <div className="admin-topic-flight">
+                        <Link to='/admin_flight'>Flight</Link>
+                    </div>
+                </div>
                 <div className="admin">
                     Admin name
                 </div>

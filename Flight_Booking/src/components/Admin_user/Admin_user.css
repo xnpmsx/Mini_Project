@@ -29,6 +29,18 @@
     right: 115px;
     top: 33px;
 }
+.admin-topic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin-topic-user{
+    margin-right: 50px;
+    font-size: 18px;
+}
+.admin-topic-flight{
+    font-size: 18px;
+}
 section{
     display: flex;
     justify-content: center;
