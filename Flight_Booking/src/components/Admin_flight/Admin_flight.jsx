@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { IoExitOutline } from 'react-icons/io5'
 import './Admin_flight.css'
 
 function Admin_flight() {
+
+    const [modal, setModal] = useState(false);
+
+    const toggleModal = () => {
+        setModal(!modal)
+    }
+
   return (
     <div>
         <div className='admin-nav'>
@@ -89,10 +96,46 @@ function Admin_flight() {
                     Delete
                 </div>
             </div>
-            <div className="admin-add-user">
+            <div className="admin-add-user"  onClick={toggleModal}>
                 Add Flight
             </div>
         </section>
+
+        {modal && (
+                <div className="modal">
+                    <div onClick={toggleModal} className="overlay"></div>
+                    <div className="modal-content-flight">
+
+                        <h2>Add Flight</h2>
+
+                        <div className="modal-content-input-user">
+
+                            <div className="modal-content-input-user-1">
+                                <div className="modal-content-username">
+                                    Airline <input type="text" className='modal-input-airline' />
+                                </div>
+                                <div className="modal-content-password">
+                                    Destination <input type="text" className='modal-input' />
+                                </div>
+                            </div>
+                            <div className="modal-content-input-user-2">
+                                <div className="modal-content-username">
+                                    Date <input type="date" className='modal-input' />
+                                </div>
+                                <div className="modal-content-password">
+                                    Time <input type="time" className='modal-input' />
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div className="modal-button">
+                            <button className='button-add-admin'>Add</button>
+                            <button className='button-close-admin' onClick={toggleModal}>Close</button>
+                        </div>
+                    </div>
+                </div>
+            )}
+
     </div>
   )
 }
