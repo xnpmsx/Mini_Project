@@ -25,16 +25,15 @@ const Login = () => {
     console.log('Form data submitted:', formData);
     // Send a POST request to the server to log in the user
     axios.post("http://localhost:3333/login", formData)
-      .then((response) => {
-        console.log("Login successful:", response.data);
-        if(response.data.status=='ok'){
-          alert('Login successful ')
-          localStorage.setItem('token',response.data.token)
-          navigate('/');
-          
-        }else{
-          alert('Invalid username or password')
-        }
+    .then((response) => {
+      console.log("Login successful:", response.data);
+      if(response.data.status === 'ok'){
+        alert('Login successful ');
+        localStorage.setItem('token', response.data.token); // เซ็ตค่า token ใน localStorage
+        navigate('/');
+      } else {
+        alert('Invalid username or password');
+      }
         // Handle the successful login response (e.g., store tokens, redirect)
       })
       .catch((error) => {

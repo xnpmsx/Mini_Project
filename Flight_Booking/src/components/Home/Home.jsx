@@ -44,14 +44,14 @@ const Home = () => {
     };
 
     console.log('Headers:', config.headers);
-    axios.post("http://localhost:3333/authen",config)
-    .then((response) => {
-      console.log(response.data);
-      if(response.data.status=='ok'){
-        alert('Authen successful ')
-      }else{
-        alert('Invalid authen')
-        navigate('/Login');
+    axios.post("http://localhost:3333/authen", {}, config)
+      .then((response) => {
+        console.log(response.data);
+        if(response.data.status === 'ok'){
+          alert('Authen successful ');
+        } else {
+          alert('Invalid authen');
+          navigate('/Login');
       }
       // Handle the successful login response (e.g., store tokens, redirect)
     })
