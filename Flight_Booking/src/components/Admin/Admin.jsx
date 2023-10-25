@@ -6,9 +6,14 @@ import './Admin.css'
 function Admin() {
 
     const [modal, setModal] = useState(false);
+    const [edit, setEdit] = useState(false);
 
     const toggleModal = () => {
         setModal(!modal)
+    }
+
+    const toggleEdit = () => {
+        setEdit(!edit)
     }
 
     return (
@@ -58,7 +63,7 @@ function Admin() {
                     <div className="admin-phone">
                         Phone : 0123456789
                     </div>
-                    <div className="admin-edit">
+                    <div className="admin-edit" onClick={toggleEdit}>
                         Edit
                     </div>
                     <div className="admin-delete">
@@ -78,7 +83,7 @@ function Admin() {
                     <div className="admin-phone">
                         Phone : 0123456789
                     </div>
-                    <div className="admin-edit">
+                    <div className="admin-edit" onClick={toggleEdit}>
                         Edit
                     </div>
                     <div className="admin-delete">
@@ -98,7 +103,7 @@ function Admin() {
                     <div className="admin-phone">
                         Phone : 0123456789
                     </div>
-                    <div className="admin-edit">
+                    <div className="admin-edit" onClick={toggleEdit}>
                         Edit
                     </div>
                     <div className="admin-delete">
@@ -126,6 +131,27 @@ function Admin() {
                         <div className="modal-button">
                             <button className='button-add-admin'>Add</button>
                             <button className='button-close-admin' onClick={toggleModal}>Close</button>
+                        </div>
+                    </div>
+                </div>
+            )}
+
+            {edit && (
+                <div className="modal">
+                    <div onClick={toggleEdit} className="overlay"></div>
+                    <div className="modal-content">
+                        <div className="modal-content-input">
+                            <h2>Edit Admin</h2>
+                            <div className="modal-content-username">
+                                Username <input type="text" className='modal-input' />
+                            </div>
+                            <div className="modal-content-password">
+                                Password <input type="password" className='modal-input' />
+                            </div>
+                        </div>
+                        <div className="modal-button">
+                            <button className='button-edit-admin'>Edit</button>
+                            <button className='button-close-admin' onClick={toggleEdit}>Close</button>
                         </div>
                     </div>
                 </div>
