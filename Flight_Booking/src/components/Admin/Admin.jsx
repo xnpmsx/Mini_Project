@@ -114,9 +114,19 @@ function Admin() {
                 <div className="modal">
                     <div onClick={toggleModal} className="overlay"></div>
                     <div className="modal-content">
-                        Username <input type="text" />
-                        Name <input type="text" />
-                        <button className='button-add-admin' onClick={toggleModal}>Close</button>
+                        <div className="modal-content-input">
+                            <h2>Add Admin</h2>
+                            <div className="modal-content-username">
+                                Username <input type="text" className='modal-input' />
+                            </div>
+                            <div className="modal-content-password">
+                                Password <input type="password" className='modal-input' />
+                            </div>
+                        </div>
+                        <div className="modal-button">
+                            <button className='button-add-admin'>Add</button>
+                            <button className='button-close-admin' onClick={toggleModal}>Close</button>
+                        </div>
                     </div>
                 </div>
             )}
