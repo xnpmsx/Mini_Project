@@ -4,7 +4,7 @@ import { IoExitOutline } from 'react-icons/io5'
 import { Link } from 'react-router-dom'
 
 function exit(){
-    console.log("Log out")
+    alert('Are you sure to logout !!!')
 }
 
 function Admin_user() {
