@@ -98,6 +98,9 @@ function Admin() {
                     Delete
                 </div>
             </div>
+            <div className="admin-add-admin">
+                Add admin
+            </div>
         </section>
     </div>
   )
