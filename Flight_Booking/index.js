@@ -74,3 +74,36 @@ app.post('/authen', jsonParser, function (req, res, next) {
 app.listen(3333, function () {
   console.log('CORS-enabled web server listening on port 3333')
 })
+
+app.get('/flight', function (req, res) {
+    connection.query('SELECT * FROM seat', function (error, results, fields) {
+      if (error) throw error;
+      res.json(results);
+    });
+  });
+
+  app.post('/reserve-seat', jsonParser, function (req, res) {
+    const { seatNumber, customerId } = req.body;
+    connection.query(
+      'UPDATE seat SET is_reserved = ?, customer_id = ? WHERE snumber = ?',
+      [true, customerId, seatNumber],
+      function (error, results, fields) {
+        if (error) throw error;
+        res.json({ status: 'ok', message: 'Seat reserved successfully' });
+      }
+    );
+  });
+  
+app.post('/cancel-reservation', jsonParser, function (req, res) {
+    const { seatNumber } = req.body;
+    connection.query(
+      'UPDATE seat SET is_reserved = ?, customer_id = ? WHERE snumber = ?',
+      [false, null, seatNumber],
+      function (error, results, fields) {
+        if (error) throw error;
+        res.json({ status: 'ok', message: 'Seat reservation canceled successfully' });
+      }
+    );
+  });
+
+
