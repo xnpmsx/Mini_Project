@@ -10,6 +10,7 @@ import Admin_user from './components/Admin_user/Admin_user';
 import Admin from './components/Admin/Admin';
 import Admin_flight from './components/Admin_flight/Admin_flight';
 import User from './components/User/User';
+import User_order from './components/User_order/User_order';
 function App() {
 
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path='/Admin' element={<Admin />}></Route>
         <Route path='/Admin_flight' element={<Admin_flight />}></Route>
         <Route path='/User' element={<User />}></Route>
+        <Route path='/User_order' element={<User_order />}></Route>
       </Routes>
       
     </BrowserRouter>
