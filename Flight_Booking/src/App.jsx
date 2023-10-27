@@ -9,6 +9,7 @@ import Pay from './components/Pay/Pay';
 import Admin_user from './components/Admin_user/Admin_user';
 import Admin from './components/Admin/Admin';
 import Admin_flight from './components/Admin_flight/Admin_flight';
+import User from './components/User/User';
 function App() {
 
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path='/Admin_user' element={<Admin_user />}></Route>
         <Route path='/Admin' element={<Admin />}></Route>
         <Route path='/Admin_flight' element={<Admin_flight />}></Route>
+        <Route path='/User' element={<User />}></Route>
       </Routes>
       
     </BrowserRouter>
