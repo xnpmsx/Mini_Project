@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './User_order.css'
 
 function User_order() {
     return (
@@ -26,6 +27,83 @@ function User_order() {
                         </div>
                     </div>
                 </div>
+
+                <div className="ticket">
+                    <div className="ticket-form-user-order">
+                        <div className="goto">
+                            ID : 1
+                        </div>
+                        <div className="date">
+                            Airline : Nokair
+                        </div>
+                        <div className="date">
+                            Destination : Puket
+                        </div>
+                        <div className="date">
+                            Date : 01/11/2024
+                        </div>
+                        <div className="time">
+                            Time : 09:30:00
+                        </div>
+                        <div className="time">
+                            Seat : A1
+                        </div>
+                        <div className="time">
+                            Price : 1300 Bath
+                        </div>
+                    </div>
+                </div>
+                <div className="ticket">
+                    <div className="ticket-form-user-order">
+                        <div className="goto">
+                            ID : 1
+                        </div>
+                        <div className="date">
+                            Airline : Nokair
+                        </div>
+                        <div className="date">
+                            Destination : Puket
+                        </div>
+                        <div className="date">
+                            Date : 01/11/2024
+                        </div>
+                        <div className="time">
+                            Time : 09:30:00
+                        </div>
+                        <div className="time">
+                            Seat : A1
+                        </div>
+                        <div className="time">
+                            Price : 1300 Bath
+                        </div>
+                    </div>
+                </div>
+                <div className="ticket">
+                    <div className="ticket-form-user-order">
+                        <div className="goto">
+                            ID : 1
+                        </div>
+                        <div className="date">
+                            Airline : Nokair
+                        </div>
+                        <div className="date">
+                            Destination : Puket
+                        </div>
+                        <div className="date">
+                            Date : 01/11/2024
+                        </div>
+                        <div className="time">
+                            Time : 09:30:00
+                        </div>
+                        <div className="time">
+                            Seat : A1
+                        </div>
+                        <div className="time">
+                            Price : 1300 Bath
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     )
