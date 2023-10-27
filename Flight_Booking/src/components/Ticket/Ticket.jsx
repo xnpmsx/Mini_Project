@@ -54,7 +54,7 @@ function Ticket() {
                             เวลา : 09:00 น.
                         </div>
                         <div className="next">
-                            <Link to="/Flight">จองที่นั่ง</Link>
+                        <Link to="/Flight">จองที่นั่ง</Link>
                         </div>
                 </div>
             </div> 

@@ -71,6 +71,25 @@ app.post('/authen', jsonParser, function (req, res, next) {
   }
 })
 
+// Handle data insertion into MySQL
+app.post('/flight', (req, res) => {
+  const { name, description } = req.body; // Assuming you expect 'name' and 'description' in the request body
+
+  // Perform data insertion into the MySQL database
+  const query = 'INSERT INTO flight (Sid, snumber, price, status, Fid, Bid) VALUES (?,?,?,?,?,?)';
+  const values = [name, description];
+
+  db.query(query, values, (err, result) => {
+    if (err) {
+      console.error(err);
+      res.status(500).send('Error inserting data into the database');
+    } else {
+      res.status(201).json({ message: 'Data inserted successfully', id: result.insertId });
+    }
+  });
+});
+
+
 app.listen(3333, function () {
   console.log('CORS-enabled web server listening on port 3333')
 })
