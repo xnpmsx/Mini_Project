@@ -43,7 +43,7 @@ function User() {
                 </div>   
 
                 <div className="submit">
-                    <Link to='/user_Ticket'>Search</Link>
+                    <Link to='/user_ticket'>Search</Link>
                 </div>
             </div>
         </div>
