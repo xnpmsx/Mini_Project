@@ -1,23 +1,24 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './User.css'
 
 function User() {
     return (
         <div>
             <div className='Home'>
-                <div className='nav'>
-                    <div className="logo">
-                        <Link to="/">Canfly</Link>
+                <div className='nav-user'>
+                    <div className="logo-user">
+                        <Link to="/user">Canfly</Link>
                     </div> 
                     <div className="navcenter-user">
                         <div className="navhome-user">
-                            <Link to="/">Home</Link>
+                            <Link to="/user">Home</Link>
                         </div>
                         <div className="navorder-user">
-                            <Link to="/">Your order</Link>
+                            <Link to="/user_order">Your order</Link>
                         </div>
                         <div className="navfav-user">
-                            <Link to="/">Favourites</Link>
+                            <Link to="/user_favourites">Favourites</Link>
                         </div>
                     </div>
                     <div className="nav-right">
