@@ -1,8 +1,42 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useEffect , useState } from 'react'
+import { Link, NavLink,useNavigate } from 'react-router-dom'
 import './User.css'
+import axios from 'axios';
 
 function User() {
+    const navigate = useNavigate();
+
+  useEffect(() => {
+
+    const token = localStorage.getItem('token')
+    console.log(token);
+  
+    const config = {
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Content-Type': 'application/json', // Specify the content type if needed
+      },
+    };
+
+    console.log('Headers:', config.headers);
+    axios.post("http://localhost:3333/authen", {}, config)
+      .then((response) => {
+        console.log(response.data);
+        if(response.data.status === 'ok'){
+          alert('Authen successful ');
+        } else {
+          alert('Invalid authen');
+          navigate('/Login');
+      }
+      // Handle the successful login response (e.g., store tokens, redirect)
+    })
+    .catch((error) => {
+      console.error("Login error:", error.response.data);
+      // Handle login error (e.g., show an error message)
+      alert("Incorrect information. Please check your credentials.");
+    });
+  }, []);
+
     return (
         <div>
             <div className='Home'>
