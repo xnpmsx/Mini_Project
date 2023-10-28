@@ -103,6 +103,9 @@ const Home = () => {
             <input type="text" className='inputwhere' placeholder='เดินทางไปที่ไหน'/>
            
         </div>      
+
+
+
         <div className="submit">
           <Link to='/Ticket'>Search</Link>
           
