@@ -2,8 +2,11 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { IoExitOutline } from 'react-icons/io5'
 import './User.css'
+import Dropdown from './Dropdown'
 
 function User() {
+
+    const [Selected, setSelected] = useState("")
 
     return (
         <div>
@@ -39,7 +42,10 @@ function User() {
                     </div>
                 </article>
 
-
+                <div className="dropdown-data">
+                    <Dropdown Selected={Selected} setSelected={setSelected}/>
+                    <Dropdown Selected={Selected} setSelected={setSelected}/>
+                </div>
 
                 <div className="datainput">
                     <input type="text" className='inputwhere' placeholder='เดินทางไปที่ไหน'/>

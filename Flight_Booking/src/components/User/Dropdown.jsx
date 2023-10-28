@@ -1,26 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-function Dropdown() {
+function Dropdown({Selected, setSelected}) {
 
     const [IsActive, setIsActive] = useState(false)
+    const option = ["Puket", "Bankkok", "Karbi"]
     
   return (
     <div>
         <div className="dropdown">
             <div className="dropdown-btn" onClick={ (e) => setIsActive(!IsActive) }>
-                เดินทางไปที่ไหน
+                {Selected}
             </div>
             {IsActive && (
                 <div className="dropdown-content">
-                    <div className="dropdowm-item">
-                        Puket
-                    </div>
-                    <div className="dropdowm-item">
-                        Bankkok
-                    </div>
-                    <div className="dropdowm-item">
-                        Karbi
-                    </div>
+                    {option.map((option) => (
+                        <div className="dropdowm-item" 
+                        onClick={(e) => {
+                                setSelected(option)
+                                setIsActive(false)
+                            }}>
+                            {option}
+                        </div>
+                    ))}
                 </div>
             )}
         </div>

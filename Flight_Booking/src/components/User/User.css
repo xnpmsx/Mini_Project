@@ -44,12 +44,13 @@
 }
 
 .dropdown{
-    width: 400px;
-    margin: 50px auto;
+    width: 300px;
+    margin: 50px 20px;
     user-select: none;
 }
 .dropdown-btn{
     box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+    border-radius: 30px;
     background: #fff;
     color: #333;
     padding: 15px 20px;
@@ -59,8 +60,9 @@
     position: absolute;
     box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
     background: #fff;
+    border-radius: 30px;
     top: 86%;
-    width: 400px;
+    width: 300px;
     color: #333;
     padding: 15px;
 }
@@ -78,4 +80,10 @@
     position: absolute;
     right: 115px;
     top: 65px;
+}
+
+.dropdown-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
