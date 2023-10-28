@@ -54,6 +54,7 @@
     background: #fff;
     color: #333;
     padding: 15px 20px;
+    height: 50px;
     cursor: pointer;
 }
 .dropdown-content{

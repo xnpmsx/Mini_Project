@@ -3,10 +3,12 @@ import { Link } from 'react-router-dom'
 import { IoExitOutline } from 'react-icons/io5'
 import './User.css'
 import Dropdown from './Dropdown'
+import Airline from './Airline'
 
 function User() {
 
     const [Selected, setSelected] = useState("")
+    const [Airlined, setAirlined] = useState("")
 
     return (
         <div>
@@ -44,14 +46,8 @@ function User() {
 
                 <div className="dropdown-data">
                     <Dropdown Selected={Selected} setSelected={setSelected}/>
-                    <Dropdown Selected={Selected} setSelected={setSelected}/>
-                </div>
-
-                <div className="datainput">
-                    <input type="text" className='inputwhere' placeholder='เดินทางไปที่ไหน'/>
-                    <input type="text" className='inputwhere' placeholder='วัน'/>
-                    <input type="text" className='inputwhere' placeholder='เวลา'/>
-                </div>   
+                    <Airline Airlined={Airlined} setAirlined={setAirlined}/>
+                </div> 
 
                 <div className="submit">
                     <Link to='/user_ticket'>Search</Link>
