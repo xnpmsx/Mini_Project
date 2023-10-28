@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { IoExitOutline } from 'react-icons/io5'
 import './User.css'
 
 function User() {
+
     return (
         <div>
             <div className='Home'>
@@ -38,22 +39,7 @@ function User() {
                     </div>
                 </article>
 
-                <div className="dropdown">
-                    <div className="dropdown-btn">
-                        เดินทางไปที่ไหน
-                    </div>
-                    <div className="dropdown-content">
-                        <div className="dropdowm-item">
-                            Puket
-                        </div>
-                        <div className="dropdowm-item">
-                            Bankkok
-                        </div>
-                        <div className="dropdowm-item">
-                            Karbi
-                        </div>
-                    </div>
-                </div>
+
 
                 <div className="datainput">
                     <input type="text" className='inputwhere' placeholder='เดินทางไปที่ไหน'/>
