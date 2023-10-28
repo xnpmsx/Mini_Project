@@ -1,0 +1,44 @@
+.nav-user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 150px 50px 150px;
+}
+.logo-user{
+    font-size: 50px;
+}
+.logo-user a{
+    color: #333;
+}
+.navcenter-user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navhome-user a{
+    color: black;
+    font-size: 18px;
+}
+.navorder-user{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.navorder-user a{
+    color: black;
+    font-size: 18px;
+}
+.navfav-user a{
+    color: black;
+    font-size: 18px;
+}
+.nav-username{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    font-size: 20px;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px
+}

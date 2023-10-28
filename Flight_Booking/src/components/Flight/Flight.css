@@ -1,5 +1,5 @@
 .seat_main_1{
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -337,4 +337,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.ticket-form-flight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 500px;
+    height: 75px;
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 2);
 }

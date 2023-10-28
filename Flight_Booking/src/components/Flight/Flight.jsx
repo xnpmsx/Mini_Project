@@ -59,6 +59,20 @@ const Flight = () => {
           </div>
         </div>
 
+        <div className="ticket">
+                <div className="ticket-form-flight">
+                        <div className="goto">
+                            เดินทางไปที่ : Thailand 
+                        </div>
+                        <div className="date">
+                            วัน : 01/12/2024
+                        </div>
+                        <div className="time">
+                            เวลา : 09:00 น.
+                        </div>
+                </div>
+            </div> 
+
         <div className="seat_main_1">
           {/* red */}
           <div className="seat_1">
