@@ -42,3 +42,15 @@
     height: 40px;
     border-radius: 30px
 }
+
+.dropdown{
+    width: 400px;
+    margin: 0 auto;
+    background-color: red;
+}
+
+.icon-user-exit{
+    position: absolute;
+    right: 115px;
+    top: 65px;
+}

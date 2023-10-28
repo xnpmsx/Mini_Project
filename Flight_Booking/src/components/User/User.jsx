@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { IoExitOutline } from 'react-icons/io5'
 import './User.css'
 
 function User() {
@@ -26,6 +27,7 @@ function User() {
                             User name
                         </div>
                     </div>
+                    <IoExitOutline className='icon-user-exit' size={25} />
                 </div>
             
 
@@ -35,6 +37,23 @@ function User() {
                     <h2>จองเที่ยวบินทั่วโลกสำหรับทริปของคุณด้วยข้อเสนอที่ดีที่สุด</h2>
                     </div>
                 </article>
+
+                <div className="dropdown">
+                    <div className="dropdown-btn">
+                        เดินทางไปที่ไหน
+                    </div>
+                    <div className="dropdown-content">
+                        <div className="dropdowm-item">
+                            Puket
+                        </div>
+                        <div className="dropdowm-item">
+                            Bankkok
+                        </div>
+                        <div className="dropdowm-item">
+                            Karbi
+                        </div>
+                    </div>
+                </div>
 
                 <div className="datainput">
                     <input type="text" className='inputwhere' placeholder='เดินทางไปที่ไหน'/>
